@@ -1,9 +1,0 @@
-uuid: 9b90e0ff-c5a2-42d9-8ad6-bc2c21d6d0c9
-langcode: en
-status: true
-dependencies: {  }
-id: database_for_git
-label: 'Database for Git'
-type: Directory
-config:
-  directory: 'private://config/database'
