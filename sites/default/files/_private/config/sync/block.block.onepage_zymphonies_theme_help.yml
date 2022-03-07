@@ -1,0 +1,22 @@
+uuid: 21e74053-e8cf-4665-a38b-ec3855c14cf8
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - onepage_zymphonies_theme
+_core:
+  default_config_hash: dRWfPgtxrrIMEtsguu2ZlqXBUXfUnn4eOxqxHAAN1cc
+id: onepage_zymphonies_theme_help
+theme: onepage_zymphonies_theme
+region: highlighted
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

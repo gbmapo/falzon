@@ -1,0 +1,22 @@
+uuid: 0f4a8158-3ae0-42ff-b70e-b24cd8fbda94
+langcode: en
+status: true
+dependencies:
+  theme:
+    - onepage_zymphonies_theme
+_core:
+  default_config_hash: lYfZyOcTZ83lrWEl7Gf6sUlsFedgtAF1W94T89UtJSc
+id: onepage_zymphonies_theme_local_tasks
+theme: onepage_zymphonies_theme
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

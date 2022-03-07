@@ -1,0 +1,39 @@
+uuid: 83cbdeaa-e227-4d39-91e5-dca296ce3aeb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cec5b5a0-5b07-4af1-a7b7-5c86b544441c'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - onepage_zymphonies_theme
+id: myhomepage
+theme: onepage_zymphonies_theme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:cec5b5a0-5b07-4af1-a7b7-5c86b544441c'
+settings:
+  id: 'block_content:cec5b5a0-5b07-4af1-a7b7-5c86b544441c'
+  label: 'My Home Page'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /node/1
