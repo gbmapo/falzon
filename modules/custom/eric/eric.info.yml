@@ -1,0 +1,6 @@
+name: 'eric'
+type: module
+description: 'Eric''s Stuff'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Custom'
