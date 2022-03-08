@@ -24,7 +24,7 @@
         "drupal/colorbox_load": "^1.2",
         "drupal/devel_kint_extras": "^1.0",
         "drupal/core-recommended": "^9",
-        "drupal/core-vendor-hardening": "^8.8",
+        "drupal/core-vendor-hardening": "^9.3",
         "drupal/core-dev": "^9",
         "drupal/core-composer-scaffold": "^9",
         "drupal/upgrade_status": "^3.13",
