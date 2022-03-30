@@ -28,7 +28,8 @@
         "drupal/core-dev": "^9",
         "drupal/core-composer-scaffold": "^9",
         "drupal/upgrade_status": "^3.13",
-        "drush/drush": "^10.6"
+        "drush/drush": "^10.6",
+        "drupal/r4032login": "^2.1"
     },
     "extra": {
         "enable-patching": true,
