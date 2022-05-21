@@ -13,7 +13,8 @@ dependencies:
 third_party_settings:
   field_layout:
     id: layout_onecol
-    settings: {  }
+    settings:
+      label: ''
 _core:
   default_config_hash: cUA2G1-U3jnekhLYnfiqYaZj-n4U8dgIZi61zrNCi3U
 id: taxonomy_term.forums.default
@@ -26,6 +27,13 @@ content:
     weight: 0
     region: content
     settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   name:
     type: string_textfield
@@ -40,6 +48,13 @@ content:
     weight: 30
     region: content
     settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
 hidden:
   forum_container: true

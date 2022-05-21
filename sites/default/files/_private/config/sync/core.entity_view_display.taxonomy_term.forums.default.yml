@@ -12,7 +12,8 @@ dependencies:
 third_party_settings:
   field_layout:
     id: layout_onecol
-    settings: {  }
+    settings:
+      label: ''
 _core:
   default_config_hash: fEFqA0_1VTvfhDVWt2yXcjfTWwsOw9YoC1xg-SO8Tms
 id: taxonomy_term.forums.default
@@ -29,3 +30,4 @@ content:
     region: content
 hidden:
   forum_container: true
+  langcode: true

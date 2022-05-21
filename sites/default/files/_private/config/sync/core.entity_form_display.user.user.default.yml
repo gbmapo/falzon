@@ -48,4 +48,5 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail_cropped_100_75_
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  langcode: true

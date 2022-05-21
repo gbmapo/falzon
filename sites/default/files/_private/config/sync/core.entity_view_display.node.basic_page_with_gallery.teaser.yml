@@ -18,7 +18,8 @@ dependencies:
 third_party_settings:
   field_layout:
     id: layout_onecol
-    settings: {  }
+    settings:
+      label: ''
 id: node.basic_page_with_gallery.teaser
 targetEntityType: node
 bundle: basic_page_with_gallery
@@ -42,3 +43,4 @@ hidden:
   field_event_date_start: true
   field_gallery: true
   field_tags: true
+  langcode: true

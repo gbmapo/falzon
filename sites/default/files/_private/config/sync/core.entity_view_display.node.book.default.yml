@@ -16,7 +16,8 @@ dependencies:
 third_party_settings:
   field_layout:
     id: layout_onecol
-    settings: {  }
+    settings:
+      label: ''
 _core:
   default_config_hash: UWTnZUj-u-jp8I_S1C1nUCTlM5iIV2QKdxm37ehFjoI
 id: node.book.default
@@ -45,4 +46,5 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  langcode: true
