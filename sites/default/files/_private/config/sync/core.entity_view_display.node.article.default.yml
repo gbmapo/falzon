@@ -1,5 +1,5 @@
 uuid: 09f384cd-1747-4b4e-a224-22c41bde6273
-langcode: en
+langcode: fr
 status: true
 dependencies:
   config:
@@ -60,6 +60,8 @@ content:
     settings:
       image_link: ''
       image_style: ''
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: -1
     region: content

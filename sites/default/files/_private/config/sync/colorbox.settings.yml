@@ -1,5 +1,6 @@
 _core:
   default_config_hash: y3pecXxXdR3fqpDn4dBUps_MnhYy2o2krBJ7fzggRuM
+langcode: fr
 custom:
   style: example3
   activate: 0

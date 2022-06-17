@@ -1,6 +1,6 @@
 _core:
   default_config_hash: r4kwhOM0IWXVMUZDz744Yc16EOh37ZhYbA8kGOhSmLk
-langcode: en
+langcode: fr
 anonymous: Anonymous
 verify_mail: true
 notify:

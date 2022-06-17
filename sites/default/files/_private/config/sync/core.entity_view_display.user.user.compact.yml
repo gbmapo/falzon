@@ -1,5 +1,5 @@
 uuid: 680c1fc4-9336-49f9-9a21-6eaa7c17fde4
-langcode: en
+langcode: fr
 status: true
 dependencies:
   config:
@@ -29,6 +29,8 @@ content:
     settings:
       image_link: content
       image_style: thumbnail_cropped_100_75_
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content
