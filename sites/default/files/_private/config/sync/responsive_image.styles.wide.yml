@@ -9,7 +9,7 @@ dependencies:
 _core:
   default_config_hash: waBU_eXNHzwqmAXPugM2-ZD5Cuvzw_OGwPfSITxymOE
 id: wide
-label: Wide
+label: Large
 image_style_mappings: {  }
 breakpoint_group: onepage_zymphonies_theme
 fallback_image_style: max_325x325

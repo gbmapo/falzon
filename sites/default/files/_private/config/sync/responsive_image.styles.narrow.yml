@@ -9,7 +9,7 @@ dependencies:
 _core:
   default_config_hash: xAduWBNBoi9WKBMCoVIKSueNYqPK84SiiZwQYKPbkaE
 id: narrow
-label: Narrow
+label: Étroit
 image_style_mappings: {  }
 breakpoint_group: onepage_zymphonies_theme
 fallback_image_style: max_325x325

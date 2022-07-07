@@ -9,5 +9,5 @@ _core:
   default_config_hash: mflVSHt4N6ABP4asGcCrKD0Qvf7y9WO_Cs_v5vCjOrw
 name: Forums
 vid: forums
-description: 'Forum navigation vocabulary'
+description: 'Vocabulaire de navigation dans les forums'
 weight: -10
