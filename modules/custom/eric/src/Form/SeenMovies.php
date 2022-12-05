@@ -354,7 +354,7 @@ class SeenMovies extends FormBase
       switch ($this->step) {
         case '2T':
           $class = ($tvshow == 1) ? "TVShow" : "";
-          $html = '<div><h1 class="tttt' . $class . '"><img src="' . $image . '">' . $title . $trailer . '<span class="date">' . $date . '</span></h1><p class="justify">' . $review . '</p><p class="signature">' . $signature . '</p><hr></div>';
+          $html = '<div><h1 class="tttt' . $class . '"><img src="' . $image . '">' . $title . $trailer . '<span class="date">' . $date . '</span></h1><p class="justify">' . $review . '</p>' . ($signature == '' ? '' : '<p class="signature">' . $signature . '</p>') . '<hr></div>';
           break;
         case '2U':
           $html = '<div><h1 class="ulysse">' . $title . $trailer . '<span class="date">' . $date . '</span></h1><h2 class="justify">' . $comment . '</h2><p class="justify"><img class="imageulysse" src="' . $image . '">' . $review . '</p><p class="signature">' . $signature . '</p><h5>' . ($titleoriginal == '[] ' ? '' : $titleoriginal) . $country . $duration . $director . $actors . '</h5><p>' . $movietheater . '</p><hr></div>';
