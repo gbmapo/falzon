@@ -6,7 +6,14 @@ dependencies:
     - field.storage.node.field_gallery
     - node.type.basic_page_with_gallery
   module:
+    - content_translation
     - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
 id: node.basic_page_with_gallery.field_gallery
 field_name: field_gallery
 entity_type: node
