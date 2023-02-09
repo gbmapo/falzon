@@ -20,7 +20,7 @@
         "drupal/fullcalendar_view": "^5.1",
         "drupal/devel": "^5.0",
         "drupal/backup_migrate": "^5.0",
-        "drupal/colorbox": "^1.8",
+        "drupal/colorbox": "^2.0",
         "drupal/colorbox_load": "^1.2",
         "drupal/core-recommended": "^9",
         "drupal/core-vendor-hardening": "^9.3",
