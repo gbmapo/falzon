@@ -1,22 +1,22 @@
-uuid: 6f5d351a-986f-4eb2-9a87-ce4fb85789a7
+uuid: 861d9536-7143-4b6f-ae37-35e85d26c656
 langcode: fr
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - claro
 _core:
-  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
-id: bartik_messages
-theme: bartik
+  default_config_hash: '-Ac3ISpIT0PQ-whzD7_dw0SdKi6dAbRFNWdSjOiVDqg'
+id: claro_messages
+theme: claro
 region: highlighted
 weight: 0
 provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: 'Messages de statut'
+  label: 'Status messages'
   label_display: '0'
   provider: system
 visibility: {  }
