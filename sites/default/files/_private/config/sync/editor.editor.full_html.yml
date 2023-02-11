@@ -1,78 +1,74 @@
-uuid: fab9fca2-525e-4c45-8d3c-2ff07bc0fd9d
-langcode: fr
+uuid: 8e9bb122-bc5c-426d-b58a-a074d7ede382
+langcode: en
 status: true
 dependencies:
   config:
     - filter.format.full_html
   module:
-    - ckeditor
-_core:
-  default_config_hash: 967ijj7p6i7rwrYl7r08WQFeCY_c23YAh0h8u-w_CXM
+    - ckeditor5
 format: full_html
-editor: ckeditor
+editor: ckeditor5
 settings:
   toolbar:
-    rows:
-      -
-        -
-          name: Formatting
-          items:
-            - Bold
-            - Italic
-            - Underline
-            - Strike
-            - Superscript
-            - Subscript
-            - '-'
-            - RemoveFormat
-            - JustifyLeft
-            - JustifyCenter
-            - JustifyRight
-            - JustifyBlock
-            - SpecialChar
-            - Undo
-            - Redo
-            - PasteText
-        -
-          name: Linking
-          items:
-            - DrupalLink
-            - ImceLink
-            - DrupalUnlink
-        -
-          name: Lists
-          items:
-            - BulletedList
-            - NumberedList
-            - Outdent
-            - Indent
-        -
-          name: Media
-          items:
-            - DrupalImage
-            - ImceImage
-            - Blockquote
-            - Table
-            - HorizontalRule
-        -
-          name: 'Block Formatting'
-          items:
-            - Format
-            - Styles
-        -
-          name: Tools
-          items:
-            - ShowBlocks
-            - Source
-            - Maximize
+    items:
+      - bold
+      - italic
+      - underline
+      - strikethrough
+      - superscript
+      - subscript
+      - removeFormat
+      - alignment
+      - specialCharacters
+      - undo
+      - redo
+      - '|'
+      - link
+      - imce_link
+      - '|'
+      - bulletedList
+      - numberedList
+      - outdent
+      - indent
+      - '|'
+      - drupalInsertImage
+      - imce_image
+      - blockQuote
+      - insertTable
+      - horizontalLine
+      - '|'
+      - heading
+      - codeBlock
+      - code
+      - '|'
+      - sourceEditing
   plugins:
-    stylescombo:
-      styles: ''
+    ckeditor5_heading:
+      enabled_headings:
+        - heading1
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+    ckeditor5_sourceEditing:
+      allowed_tags: {  }
+    ckeditor5_list:
+      reversed: true
+      startIndex: true
+    ckeditor5_alignment:
+      enabled_alignments:
+        - left
+        - center
+        - right
+        - justify
+    ckeditor5_imageResize:
+      allow_resize: true
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: null
-    height: null
+    width: 0
+    height: 0
